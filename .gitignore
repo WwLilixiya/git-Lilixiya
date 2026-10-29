@@ -1,0 +1,25 @@
+# C++ build outputs
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+build/
+
+# Local application and test data
+*.db
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Office lock files and temporary files
+~$*
+*.tmp
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
